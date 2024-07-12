@@ -34,6 +34,7 @@ public class DemoNavDrawer1 extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         drawerLayout=(DrawerLayout) findViewById(R.id.drawer_layout_1);
+        //Gắn icon toggle de mo nav
         ActionBarDrawerToggle toggle=new ActionBarDrawerToggle
                 (this,drawerLayout,toolbar,R.string.open_nav,R.string.close_nav);
         drawerLayout.addDrawerListener(toggle);
